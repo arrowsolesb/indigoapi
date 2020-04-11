@@ -26,15 +26,15 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-			      <uri>https://anypoint.mulesoft.com</uri>
-			      <muleVersion>4.2.2</muleVersion>
-			      <username>esb08</username>
-			      <password>Esb@08</password>
-			      <applicationName>indigoapi-cloud1986</applicationName>
-			      <environment>Sandbox</environment>
-			      <workers>1</workers>
-			      <workerType>MICRO</workerType>
-    			</cloudHubDeployment>
+     				 <uri>https://anypoint.mulesoft.com</uri>
+     				 <muleVersion>${app.runtime}</muleVersion>
+     				 <username>esb09</username>
+    				 <password>Esb@09</password>
+     				 <applicationName>indigoapi-cloud1987</applicationName>
+      				 <environment>Sandbox</environment>
+      				 <workers>1</workers>
+      				 <workerType>Micro</workerType>
+    				</cloudHubDeployment>
                 </configuration>
 			</plugin>
 		</plugins>
