@@ -129,7 +129,8 @@ output application/json
         </error-handler>
     </flow>
     <flow name="get:\indigoFlights:indigoapi-config">
-        <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+         <logger level="INFO" doc:name="Logger" doc:id="1e8a9523-69cf-481e-ad4b-01295ff6178e" message="Request received............"/>
+	    <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
             <ee:message>
                 <ee:set-payload><![CDATA[%dw 2.0
 output application/json
