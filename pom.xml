@@ -26,15 +26,14 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-     				
+					 <username>esb08</username>
+    				 <password>Esb@08</password>
+     				 <environment>Sandbox</environment>
+     				 <applicationName>indigoapi-cloud</applicationName>
      				 <muleVersion>${app.runtime}</muleVersion>
-     				 <username>esb09</username>
-    				 <password>Esb@09</password>
-     				 <applicationName>indigoapi-cloud1987</applicationName>
-      				 <environment>Sandbox</environment>
-      				 <workers>1</workers>
-      				 <workerType>Micro</workerType>
-				 <objectStoreV2>true</objectStoreV2>		
+     				  <workerType>Micro</workerType>
+     				 <workers>1</workers>
+				     <objectStoreV2>true</objectStoreV2>		
     				</cloudHubDeployment>
                 <classifier>mule-application</classifier>
                 </configuration>
